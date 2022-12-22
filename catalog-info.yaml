@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1loremipsum
+kind: Component
+metadata:
+  name: metadate-name-loremipsum
+  description: Lorem ipsum dolor sit amet consectetur adipiscing elit. Aliquam auctor lacus tellus. Morbi viverra in ligula nec commodo.
+  labels:
+    example.com/custom: lorem_ipsum_value
+  annotations:
+    example.com/service-discovery: annotation-loremipsum
+  tags:
+    - lorem
+    - ipsum
+    - test01
+    - loremipsum
+    - local-test
+  links:
+    - url: http://www.deltaoscargolf.com/
+      title: Admin XD
+      icon: dashboard
+      type: admin-dashboard
+spec:
+  type: type-lorem-ipsum
+  lifecycle: lifecycle-lorem-ipsum
+  owner: owner-lorem-ipsum
+  system: system-lorem-ipsum
