@@ -1,25 +1,22 @@
-apiVersion: backstage.io/v1loremipsum
+apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: metadate-name-loremipsum
-  description: Lorem ipsum dolor sit amet consectetur adipiscing elit. Aliquam auctor lacus tellus. Morbi viverra in ligula nec commodo.
+  name: artist-web
+  description: The place to be, for great artists
   labels:
-    example.com/custom: lorem_ipsum_value
+    example.com/custom: custom_label_value
   annotations:
-    example.com/service-discovery: annotation-loremipsum
+    example.com/service-discovery: artistweb
+    circleci.com/project-slug: github/example-org/artist-website
   tags:
-    - lorem
-    - ipsum
-    - test01
-    - loremipsum
-    - local-test
+    - java
   links:
-    - url: http://www.deltaoscargolf.com/
-      title: Admin XD
+    - url: https://admin.example-org.com
+      title: Admin Dashboard
       icon: dashboard
       type: admin-dashboard
 spec:
-  type: type-lorem-ipsum
-  lifecycle: lifecycle-lorem-ipsum
-  owner: owner-lorem-ipsum
-  system: system-lorem-ipsum
+  type: website
+  lifecycle: production
+  owner: artist-relations-team
+  system: public-websites
