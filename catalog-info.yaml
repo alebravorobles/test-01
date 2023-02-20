@@ -12,7 +12,8 @@ metadata:
     - lorem
     - ipsum
     - lorem-ipsum
-    - test
+    - lorem-ipsum-test
+    - custom
   links:
     - url: https://admin.example-org.com
       title: Admin Dashboard
